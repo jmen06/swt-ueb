@@ -1,18 +1,33 @@
 package swt;
 
 import java.awt.Point;
+import java.awt.geom.Point2D;
 
 public class Viereck {
+	
+	
+	
     private Point a;
     private Point b;
     private Point c;
     private Point d;
+    private Point2D a1;
+    private Point2D b1;
+    private Point2D c1;
+    private Point2D d1;
 
     public Viereck(Point a, Point b, Point c, Point d) {
         this.a = a;
         this.b = b;
         this.c = c;
         this.d = d;
+    }
+    
+    public Viereck(Point2D a1, Point2D b1, Point2D c1, Point2D d1) {
+        this.a1 = a1;
+        this.b1 = b1;
+        this.c1 = c1;
+        this.d1 = d1;
     }
 
     public boolean isQuadrat() {
@@ -37,12 +52,11 @@ public class Viereck {
     }
     
     public boolean isViereck(){
-    	if(this.a.x==this.b.x && this.b.y==this.c.y && (this.b.y-this.a.y)==(this.c.y-this.d.y))
-//    	if(this.isQuadrat()==false && this.isRechteck()==false && this.isParallelogramm()==false
-//    			&& this.isTrapez()==false)
-    		{ 
+    	if(this.a.x==this.b.x && this.b.y==this.c.y && (this.b.y-this.a.y)==(this.c.y-this.d.y)){ 
     				return true;
-    			}else{ return false;}
+    	}else{ 
+    				return false; 
+    			}
     }
    
 }
