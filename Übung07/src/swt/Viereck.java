@@ -37,8 +37,10 @@ public class Viereck {
     }
     
     public boolean isViereck(){
-    	if(this.isQuadrat()==false && this.isRechteck()==false && this.isParallelogramm()==false
-    			&& this.isTrapez()==false){ 
+    	if(this.a.x==this.b.x && this.b.y==this.c.y && (this.b.y-this.a.y)==(this.c.y-this.d.y))
+//    	if(this.isQuadrat()==false && this.isRechteck()==false && this.isParallelogramm()==false
+//    			&& this.isTrapez()==false)
+    		{ 
     				return true;
     			}else{ return false;}
     }
