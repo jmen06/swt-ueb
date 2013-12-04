@@ -58,5 +58,5 @@ public class Viereck {
     				return false; 
     			}
     }
-   
+   // Freu mich aufs ski fahren :)
 }
