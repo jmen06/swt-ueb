@@ -4,7 +4,8 @@ import java.awt.Point;
 import java.awt.geom.Point2D;
 
 public class Viereck {
-//foobar	
+//foobar
+//bliblablubb
 	
 	
     private Point a;
@@ -61,5 +62,5 @@ public class Viereck {
    // Freu mich aufs ski fahren :)
 }
 
-/*gksdflgkjhsdlfjhfgkjshdfgkljdhfgöksjdgskh*/
+/*gksdflgkjhsdlfjhfgkjshdfgkljdhfgï¿½ksjdgskh*/
 /*2ter kommentar*/
