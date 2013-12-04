@@ -62,3 +62,4 @@ public class Viereck {
 }
 
 /*gksdflgkjhsdlfjhfgkjshdfgkljdhfgöksjdgskh*/
+/*2ter kommentar*/
