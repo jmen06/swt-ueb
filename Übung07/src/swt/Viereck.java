@@ -60,3 +60,6 @@ public class Viereck {
     }
    // Freu mich aufs ski fahren :)
 }
+
+/*gksdflgkjhsdlfjhfgkjshdfgkljdhfgöksjdgskh*/
+/*2ter kommentar*/
